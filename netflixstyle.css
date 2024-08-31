@@ -1,0 +1,352 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+}
+
+body {
+    background-color: black;
+}
+
+
+.firstsec {
+    background-image: url(images/netbg.jpg);
+    height: 93vh;
+    position: relative;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+}
+
+.box {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.69;
+    display: flex;
+    position: absolute;
+    top: 0;
+
+
+}
+
+ul {
+    /* background-color: aliceblue; */
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 80vw;
+    margin: auto;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    z-index: 10;
+    ;
+}
+
+.logo {
+    height: 43px;
+    padding: 30px;
+}
+
+
+.btn1 {
+    margin: 20px;
+    background-color: rgba(0, 0, 0, 0.159);
+    font-size: 15px;
+    padding: 2px 20px 2px 20px;
+    border-radius: 5px;
+    font-weight: 400;
+    color: white;
+    font-family: sans-serif;
+    cursor: pointer;
+
+}
+
+.btn2 {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: rgb(255, 0, 0);
+    font-size: 15px;
+    padding: 2px 20px 2px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.headings {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    /* width: 100%; */
+    position: relative;
+    ;
+    font-family: sans-serif;
+    color: white;
+    padding: 30px;
+}
+
+.heading1 {
+    color: white;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+
+}
+
+.heading2 {
+    font-size: 24px;
+    font-weight: 300;
+    padding: 20px;
+    text-align: center;
+}
+
+.heading3 {
+    font-size: 20px;
+    font-weight: 10;
+    text-align: center;
+}
+
+input {
+    margin: 5px;
+    padding: 10px 60px 10px 40px;
+    background-color: rgba(55, 55, 55, 0.556);
+    color: rgb(174, 171, 171);
+    border-radius: 4px;
+
+}
+
+.flexbtn {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.btn3 {
+    font-family: sans-serif;
+    /* margin: 20px; */
+    cursor: pointer;
+
+    background-color: rgb(255, 0, 0);
+    font-size: 22px;
+    padding: 7px 40px 7px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font: bolder;
+    border-radius: 4px;
+}
+
+.line {
+    background-color: rgb(54, 54, 54);
+    height: 7px;
+}
+
+
+.secondsec {
+    display: flex;
+    height: 70vh;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+.fifthsec {
+    display: flex;
+    height: 70vh;
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+.box1 {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 200px;
+}
+.box3 {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 100px;
+}
+.box4 {
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 100px;
+}
+
+.h1 {
+    color: white;
+    font-size: 44px;
+    font-weight: 900;
+    
+    
+}
+.h2 {
+    color: white;
+    font-size: 23px;
+}
+.h8 {
+    color: white;
+    font-size: 44px;
+    font-weight: 900;
+    
+    
+}
+.h9 {
+    color: white;
+    font-size: 23px;
+}
+.box2 {
+    top: 0;
+}
+.box22 {
+    top: 0;
+}
+.tv {
+    right: 40px;
+    top: 702px;
+    position: absolute;
+}
+
+
+.tv2 {
+    right: 40px;
+    top: 702px;
+    position: absolute;
+}
+.tv {
+    
+    right: 40px;
+    top: 702px;
+    position: absolute;
+}
+.tv99 {
+    
+    right: 40px;
+    top: 1760px 
+;
+    position: absolute;
+}
+.vid {
+    right: 120px;
+    position: relative;
+    z-index: -10;
+}
+.vid99 {
+    height: 217px;
+    right: 175px;
+    bottom: 55px;
+    position: relative;
+    z-index: -10;
+}
+.thirdsec.box1 {
+    padding: 50px;
+}
+
+
+/* **************************FAQs************************* */
+.fqheading {
+    color: white;
+    font-size: 50px;
+   margin-top: 50px;
+   font-family: sans-serif;
+   font-weight: 700;
+   padding: 20px;
+
+}
+.faqbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+}
+.fqbox  {
+    background-color: rgb(47, 47, 47);
+    width: 70vw;
+    color: rgb(255, 255, 255);
+    height: 45px;
+    font-family: sans-serif;
+    font-size: 26px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.faqsubhead {
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    margin-top: 30px;
+    
+}
+/* <!-- *******************FOOTER ******************************--> */
+.ftrh1 {
+    color: white;
+    margin: 50px;
+    padding-left: 12vw;
+   
+}
+footer {
+    align-items: center;
+    justify-content: center;
+}
+.grid {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 70vw;
+    gap: 15px;
+    
+}
+.ftrgrid {
+    color: rgb(107, 107, 107);
+    
+}
+a { 
+    color: rgb(156, 156, 156);
+}
+a:hover {
+    color: rgb(251, 251, 251);
+}
+
+.footerbtn{
+    margin-left: 146px;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
